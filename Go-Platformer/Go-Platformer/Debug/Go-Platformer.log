@@ -1,0 +1,17 @@
+﻿Build started 24.01.2016 20:48:25.
+     1>Project "C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Go-Platformer\Go-Platformer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Libraries\SDL2_image-2.0.0\include" /I"C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Libraries\SDL2_mixer-2.0.0\include" /I"C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Libraries\SDL_2.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Sprite.cpp
+         Sprite.cpp
+     1>c:\users\cyril\documents\visual studio 2013\projects\go-platformer\go-platformer\sprite.cpp(34): warning C4150: deletion of pointer to incomplete type 'SDL_Texture'; no destructor called
+                 c:\users\cyril\documents\visual studio 2013\projects\go-platformer\libraries\sdl_2.0\include\sdl_render.h(127) : see declaration of 'SDL_Texture'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Debug\Go-Platformer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Libraries\SDL2_image-2.0.0\lib\x86" /LIBPATH:"C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Libraries\SDL2_mixer-2.0.0\lib\x86" /LIBPATH:"C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Libraries\SDL_2.0\lib\x86" SDL2.lib SDL2main.lib SDL2_mixer.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Debug\Go-Platformer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Debug\Go-Platformer.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\Main.obj
+         Debug\Sprite.obj
+         Go-Platformer.vcxproj -> C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Debug\Go-Platformer.exe
+     1>Done Building Project "C:\Users\Cyril\Documents\Visual Studio 2013\Projects\Go-Platformer\Go-Platformer\Go-Platformer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.38
